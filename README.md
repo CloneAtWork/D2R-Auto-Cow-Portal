@@ -82,7 +82,7 @@ All options and examples are in **[docs/CONFIGURATION.md](docs/CONFIGURATION.md)
 
 ## Troubleshooting
 
-1. Check `d2rloader\logs\d2rloader.log` for `Cow Portal in Town … by Alex`.
+1. Check `d2rloader\logs\d2rloader.log` for `Cow Portal in Town`.
 2. Check the plugin log, `cow-portal-in-town.log`, next to it (or in `Mods\D2RMM\d2rloader\logs\`). It should contain `Hooks installed … Ready.`
 3. Set `[diagnostics] enabled = true` and reproduce the problem. Every arrival and decision is then logged.
 
