@@ -1,0 +1,6 @@
+// Plugin manifest resource required by D2RLoader: RCDATA id 1001 = plugin ABI version (DWORD).
+// Same layout as the SDK examples and the existing plugins (verified: they contain 04 00 00 00).
+#include <D2RLPlugin/resource.h>
+#include <D2RLPlugin/version.h>
+
+D2RL_PLUGIN_MANIFEST_RESOURCE_ID RCDATA { D2RL_PLUGIN_RESOURCE_DWORD(D2RL_PLUGIN_ABI_VERSION) }

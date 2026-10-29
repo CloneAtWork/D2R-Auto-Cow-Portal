@@ -1,0 +1,29 @@
+# Cow Portal in Town
+# Opens the secret cow level portal in the Rogue Encampment, once per game, for every
+# difficulty where the final quest is done (Baal in LoD/RotW, Diablo in Classic).
+# Changes take effect after restarting the game.
+
+[cow_portal]
+# Master switch. false = no hook is installed at all.
+enabled = true
+# Per-difficulty switches.
+normal = true
+nightmare = true
+hell = true
+
+[placement]
+# "bonfire" = fixed spot relative to the central Rogue bonfire (recommended)
+# "player"  = next to the player, like the Horadric Cube recipe
+anchor = "bonfire"
+# Offset from the bonfire in game sub-tiles (1 tile = 5 sub-tiles).
+# On screen: +x = down-right, -x = up-left, +y = down-left, -y = up-right.
+# The portal goes to the nearest free spot around this point.
+offset_x = 6
+offset_y = 9
+# If the bonfire cannot be found, open the portal next to the player instead.
+fallback_to_player = true
+
+[diagnostics]
+# Log every Rogue Encampment arrival and the decision taken (plugin log file).
+# Startup lines, warnings and errors are always logged.
+enabled = false

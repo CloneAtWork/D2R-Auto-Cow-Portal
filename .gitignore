@@ -1,0 +1,21 @@
+# build output
+/build/
+/dist/
+*.o
+*.res.o
+*.exe
+*.dll
+
+# runtime dumps of the game - Blizzard's code, never commit
+*.bin
+d2r_image_*.txt
+
+# python
+__pycache__/
+*.pyc
+
+# editors / OS
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
